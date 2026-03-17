@@ -1,0 +1,42 @@
+{
+  "development": {
+    "username": "sa",
+    "password": "YourStrong!Passw0rd",
+    "database": "RestaurantDB",
+    "host": "localhost",
+    "dialect": "mssql",
+    "dialectOptions": {
+      "options": {
+        "encrypt": false,
+        "trustServerCertificate": true
+      }
+    },
+    "logging": false
+  },
+  "test": {
+    "username": "sa",
+    "password": "YourStrong!Passw0rd",
+    "database": "RestaurantDB",
+    "host": "localhost",
+    "dialect": "mssql",
+    "dialectOptions": {
+      "options": {
+        "encrypt": false,
+        "trustServerCertificate": true
+      }
+    }
+  },
+  "production": {
+    "username": "sa",
+    "password": "YourStrong!Passw0rd",
+    "database": "RestaurantDB",
+    "host": "localhost",
+    "dialect": "mssql",
+    "dialectOptions": {
+      "options": {
+        "encrypt": false,
+        "trustServerCertificate": true
+      }
+    }
+  }
+}
